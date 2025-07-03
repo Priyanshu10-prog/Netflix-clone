@@ -1,0 +1,107 @@
+body{
+    color:white; 
+    background-color: black;
+    font-family:"bebas-Neue" ;
+    margin:0;
+    font-weight: bolder;
+}
+body::before{
+    content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  z-index:-1 ;
+  position:fixed;
+  
+
+}
+#nav{
+    background-image: linear-gradient( rgba(0,0,0,0.9), rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('./rDJegQJaCyGaYysj2g5XWY-970-80.jpg.webp');
+    background-size:cover;
+    margin:0;
+    padding: 0;
+    height:100vh;
+    
+
+}
+.icon{
+    height: 33px;
+
+}
+.btn{
+    background-color: #E50914;
+    color:white;
+    font-weight:25px;
+}
+.dropdown-toggle{
+    margin-right: 10px;
+    background-color: transparent;
+    color:white;
+    border:none;
+}
+.col-md-5{
+    width:50vw;
+    margin-top: 12%;
+    margin-left: 25%;
+    font-size:20px;
+    text-align: center;
+
+
+}
+h1{
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+.feature{
+
+    background-color: black;
+    border-top:8px solid rgb(30, 28, 28);
+    border-bottom:8px solid rgb(30, 28, 28);
+    margin-bottom: 50px;
+}
+.feature-left{
+    margin-right:30px;
+}
+.accordion{
+    width:45vw;
+    margin-left: 350px;
+
+
+}
+.accordion-item{
+    margin-bottom: 10px;
+}
+.accordion-button{
+     background-color: rgb(40, 40, 40); 
+    color: white;
+}
+
+.accordion-button::after {
+ filter: brightness(0) invert(1);
+}
+.accordion-header{
+    background-color:  rgb(40, 40, 40) !important;
+    color:white !important;
+}
+#FAQ{
+    padding-bottom: 20px;
+     background-color: black;
+    border-bottom:8px solid rgb(30, 28, 28);
+    margin-bottom: 50px;
+
+}
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
